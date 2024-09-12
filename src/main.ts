@@ -18,6 +18,7 @@ app.mount('#app')
  * --设置全局用户名：git config --global user.name "Your Name"
  * --设置全局邮箱：git config --global user.email "your_email@example.com"
  * --查看当前的git仓库状态：git status，查看差异：git diff
+ * --首次在vscode中使用git时，会要求绑定github账号，按提示进行即可，后续不会再次验证。
  */
 
 /**

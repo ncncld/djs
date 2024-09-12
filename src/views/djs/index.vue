@@ -228,7 +228,7 @@ let messages = [broadcast, notice, share]
 
 // 设置定时器，用于动态更新内容
 setTimeout(function () {
-  messages[2] = '共享内容变了'
+  messages[2] = '共享内容变了。。。'
 }, 40000);
 
 function broadcastLoopComplete() {
