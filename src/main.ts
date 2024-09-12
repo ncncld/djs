@@ -14,27 +14,25 @@ app.use(router)
 app.mount('#app')
 
 /**
-
  * @git工具设置
  * --设置全局用户名：git config --global user.name "Your Name"
  * --设置全局邮箱：git config --global user.email "your_email@example.com"
-   */
+ * --查看当前的git仓库状态：git status，查看差异：git diff
+ */
 
 /**
-
  * @git代码到github
  * 方法一：
- * --利用vscode功能实现
+ * --利用vscode功能实现。【强烈建议】
  * 方法二：
  * --初始化本地仓库：git init
  * --添加GitHub远程仓库地址：git remote add origin https://github.com/yourusername/yourrepository.git
  * --添加文件到暂存区：git add .
  * --提交更改：git commit -m "这里输入描述语"
  * --将更改推送到GitHub：git push -u origin main
-   */
+ */
 
 /**
-
  * @分支操作
  * --使用git branch命令创建新分支，例如：git branch new-branch-name
  * --使用git checkout命令切换到新分支，例如：git checkout new-branch-name
@@ -43,7 +41,7 @@ app.mount('#app')
  * --删除远程分支：git push origin --delete branch_name
  * 或者，你也可以直接在GitHub的网页界面上删除分支：打开GitHub仓库页面。
  * 点击“Branches”菜单找到要删除的分支，在分支旁边点击“Delete”按钮。
-   */
+ */
 
 /**
  * @版本管理
